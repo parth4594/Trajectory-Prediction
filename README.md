@@ -9,7 +9,12 @@ determines the presence of obstacles and other surrounding traffic agents
 in the traffic scene.
 
 ## Objectives ##
-*Learning spatio-temporal relationships between the traffic agents to
+* Learning spatio-temporal relationships between the traffic agents to
 improve prediction accuracy.
-*Fusion of diverse data-types in the form of numerical data,
+* Fusion of diverse data-types in the form of numerical data,
 categorical data and local semantic maps.
+
+## Results ##
+The experiments show that adding local semantic maps encoded with a
+CNN to the input of the Transformer-based model, significantly improves
+prediction accuracy.
